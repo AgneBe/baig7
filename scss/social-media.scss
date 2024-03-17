@@ -1,0 +1,14 @@
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    p {
+      color: #86878b;
+    }
+    .left {
+      width: 30%;
+    }
+    .media{
+      @include center-container;
+      gap:60px;
+    }
+  }
